@@ -1,0 +1,41 @@
+{
+  "name": "@asistoya/shared",
+  "version": "1.0.0",
+  "description": "Tipos y servicios compartidos para AsistoYa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnmanuelReynoso23/asistoya-shared.git"
+  },
+  "keywords": [
+    "asistoya",
+    "types",
+    "services",
+    "shared"
+  ],
+  "author": "EnmanuelReynoso23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnmanuelReynoso23/asistoya-shared/issues"
+  },
+  "homepage": "https://github.com/EnmanuelReynoso23/asistoya-shared#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
+
