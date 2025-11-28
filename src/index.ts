@@ -11,9 +11,9 @@ export * from './types/teacher';
 export * from './types/user';
 
 // Services
-export * from './services/attendanceService';
-export * from './services/authService';
-export * from './services/courseService';
-export * from './services/notificationService';
-export * from './services/studentService';
+export * from './services/services/attendanceService';
+export * from './services/services/authService';
+export * from './services/services/courseService';
+export * from './services/services/notificationService';
+export * from './services/services/studentService';
 
