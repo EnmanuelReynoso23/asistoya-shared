@@ -3,7 +3,7 @@
  * Platform-agnostic course management service
  */
 
-import type { Course, CourseStatus } from '@asistoya/shared-types';
+import type { Course, CourseStatus } from '../../types/course';
 import { getSupabase } from '../client';
 import { logger } from '../logger';
 import { DatabaseError, ValidationError, isPostgrestError, logError } from '../errors';

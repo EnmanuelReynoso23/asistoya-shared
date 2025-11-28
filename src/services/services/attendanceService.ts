@@ -8,7 +8,7 @@ import type {
   AttendanceStats, 
   MarkAttendanceInput,
   AttendanceStatus 
-} from '@asistoya/shared-types';
+} from '../../types/attendance';
 import { getSupabase } from '../client';
 import { logger } from '../logger';
 import { DatabaseError, ValidationError, isPostgrestError, logError } from '../errors';

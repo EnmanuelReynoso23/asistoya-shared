@@ -3,7 +3,7 @@
  * Platform-agnostic student management service
  */
 
-import type { Student, StudentStats, StudentRow } from '@asistoya/shared-types';
+import type { Student, StudentStats, StudentRow } from '../../types/student';
 import { getSupabase } from '../client';
 import { logger } from '../logger';
 import { DatabaseError, ValidationError, isPostgrestError, logError } from '../errors';

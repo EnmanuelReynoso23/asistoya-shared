@@ -4,7 +4,7 @@
  */
 
 import type { User, AuthError, Session } from '@supabase/supabase-js';
-import type { SignUpData, SignInData, User as AppUser, UserRole } from '@asistoya/shared-types';
+import type { SignUpData, SignInData, User as AppUser, UserRole } from '../../types/user';
 import { getSupabase } from '../client';
 import { logger } from '../logger';
 

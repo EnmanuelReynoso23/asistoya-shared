@@ -4,7 +4,7 @@
  */
 
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
-import type { Database } from '@asistoya/shared-types';
+import type { Database } from '../types/supabase';
 
 export interface SupabaseConfig {
   url: string;

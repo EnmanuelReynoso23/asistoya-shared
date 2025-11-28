@@ -9,7 +9,7 @@ import type {
   CreateNotificationInput,
   NotificationType,
   NotificationPriority 
-} from '@asistoya/shared-types';
+} from '../../types/notification';
 import { getSupabase } from '../client';
 import { logger } from '../logger';
 import { DatabaseError, isPostgrestError, logError } from '../errors';
